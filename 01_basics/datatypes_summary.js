@@ -39,3 +39,24 @@ console.log(typeof anotherId);
 // Boolean          |     "boolean"
 // Number           |      "number"
 // String           |      "string"
+
+// +++++++++++++++++++++++++++++++++++++++++++ //
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Omnaththakurdotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "omnath@google.com"
+
+console.log(userOne);
+console.log(userTwo);
